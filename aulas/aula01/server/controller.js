@@ -8,5 +8,4 @@ export class Controller {
   async getFileStream(filename) {
     return this.service.getFileStream(filename)
   }
-
 }

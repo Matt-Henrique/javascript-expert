@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
   display: grid;
   place-items: center center;
   background: #daf7de;
@@ -64,21 +64,21 @@ section {
   height: 300px;
   width: 650px;
   padding: 7rem 4rem 4rem 4rem;
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   border-radius: 15px;
 }
 
 section::after {
-    background-image: url(https://www.elgato.com/sites/default/files/2018-10/product_logo_streamdeck.png);
-    content: "";
-    display: block;
-    position: absolute;
-    left: 24%;
-    top: 7.5px;
-    margin: 0 auto;
-    height: 82px;
-    width: 393px;
-    transform: scale(0.8)
+  background-image: url(https://www.elgato.com/sites/default/files/2018-10/product_logo_streamdeck.png);
+  content: "";
+  display: block;
+  position: absolute;
+  left: 24%;
+  top: 7.5px;
+  margin: 0 auto;
+  height: 82px;
+  width: 393px;
+  transform: scale(0.8);
 }

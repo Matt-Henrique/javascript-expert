@@ -4,9 +4,8 @@
 :root {
   --sidebar-background: #191414;
   --sidebar-color: #ffffff;
-  --brand-color--primary: #1DB954;
+  --brand-color--primary: #1db954;
 }
-
 
 html,
 body {
@@ -346,8 +345,7 @@ body {
   border: none;
   width: 30px;
   height: 30px;
-  background: url("https://img.icons8.com/FFFFFF/skip-to-start") no-repeat
-    center;
+  background: url("https://img.icons8.com/FFFFFF/skip-to-start") no-repeat center;
   background-size: contain;
 }
 .player-controls-row {

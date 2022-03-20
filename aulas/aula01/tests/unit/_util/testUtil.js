@@ -11,7 +11,7 @@ export default class TestUtil {
   static generateReadableStream(data) {
     return new Readable({
       read() {
-        for(const item of data) {
+        for (const item of data) {
           this.push(item)
         }
 
@@ -32,7 +32,7 @@ export default class TestUtil {
 
   static defaultHandleParams() {
     const requestStream = TestUtil.generateReadableStream(['body da requisicao'])
-    const response = TestUtil.generateWritableStream(() => {})
+    const response = TestUtil.generateWritableStream(() => { })
     const data = {
       request: Object.assign(requestStream, {
         headers: {},
